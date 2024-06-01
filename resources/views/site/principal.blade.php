@@ -41,8 +41,7 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Get work done <span>faster</span> <br>and <span>better</span> with us</h1>
-        <a href="#" class="btn btn-info btn-lg tombol">View Our Work</a>
+        <h1 class="display-4">Frase <span>genérica</span> <br>que eu <span>não sei </span>o que escrever</h1>
       </div>
     </div>
     <!-- akhir Jumbotron -->
@@ -52,27 +51,7 @@
     <div class="container">
 
       <!-- info panel -->
-      <div class="row justify-content-center">  
-        <div class="col-10 info-panel">
-          <div class="row">
-            <div class="col-sm">
-              <img src="{{asset('img/employee.png')}}" alt="Employee" class="img-fluid float-left">
-              <h4>24 Hours</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-lg">
-              <img src="{{asset('img/hires.png')}}" alt="HiRes" class="img-fluid float-left">
-              <h4>High-Res</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-lg">
-              <img src="{{asset('img/security.png')}}" alt="Security" class="img-fluid float-left">
-              <h4>Security</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    
       <!-- akhir info panel -->
 
 
@@ -82,7 +61,7 @@
           <img src="{{asset('img/workingspace.jpg')}}" alt="Working Space" class="img-fluid">
         </div>
         <div class="col-lg-5">
-          <h2>You <span>Work</span> Like at <span>Home</span></h2>
+          <h2><span></span><span><br>Sydney Football Stadium</span></h2>
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel scelerisque dui. Donec dignissim odio eu hendrerit tincidunt. Fusce feugiat magna purus, quis vestibulum mauris volutpat vel."</p>
           <a href="#" class="btn btn-danger tombol">Gallery</a>
         </div>
