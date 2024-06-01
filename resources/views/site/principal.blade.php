@@ -23,17 +23,15 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Sandhika</a>
+        <a class="navbar-brand" href="#">SOCCER KKKK</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link btn btn-primary text-white tombol" href="#">Join Us</a>
+            <a class="nav-item nav-link active" href="{{route('site.principal')}}">Principal <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="{{route('site.somos')}}">Quem Somos</a>
+            <a class="nav-item nav-link btn btn-primary text-white tombol" href="{{route('site.contato')}}">Contato</a>
           </div>
         </div>
       </div>
@@ -81,12 +79,11 @@
       <!-- Workingspace -->
       <div class="row workingspace">
         <div class="col-lg-6">
-          <img src="{{asset('img/workingspace.png')}}" alt="Working Space" class="img-fluid">
+          <img src="{{asset('img/workingspace.jpg')}}" alt="Working Space" class="img-fluid">
         </div>
         <div class="col-lg-5">
           <h2>You <span>Work</span> Like at <span>Home</span></h2>
-          <p>Bekerja dengan suasana hati yang lebih asik, menyenangkan
-            dan mempelajari hal baru setiap harinya.</p>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel scelerisque dui. Donec dignissim odio eu hendrerit tincidunt. Fusce feugiat magna purus, quis vestibulum mauris volutpat vel."</p>
           <a href="#" class="btn btn-danger tombol">Gallery</a>
         </div>
       </div>
@@ -97,20 +94,20 @@
       <section class="testimonial">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <p>"Bekerja dengan suasana hati yang lebih asik dan mempelajari hal baru setiap harinya."</p>
+            <p>"DAROSEUMELHORDENTRODECAMPO"</p>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-6 justify-content-center d-flex">
-            <img src="{{asset('img/img1.png')}}" alt="Testimonial 1">
-            <img src="{{asset('img/img2.png')}}" alt="Testimonial 2" class="img-main">
-            <img src="{{asset('img/img3.png')}}" alt="Testimonial 3">
+            <img src="{{asset('img/messi.jpg')}}" alt="Testimonial 1">
+            <img src="{{asset('img/rony.jpg')}}" alt="Testimonial 2" class="img-main">
+            <img src="{{asset('img/rodilindo.png')}}" alt="Testimonial 3">
           </div>
         </div>
         <div class="row justify-content-center info-text">
           <div class="col-lg text-center">
-            <h5>Sunny Ye</h5>
-            <p>Designer</p>
+            <h5>Rústico</h5>
+            <p>Rony</p>
           </div>
         </div>
       </section>
