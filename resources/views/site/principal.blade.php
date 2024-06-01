@@ -18,7 +18,6 @@
     <title>Site Joia </title>
   </head>
   <body>
-<img class="logo" src="{{ asset('img/logo.png')}}" alt="NBA Logo">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">

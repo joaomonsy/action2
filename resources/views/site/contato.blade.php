@@ -13,7 +13,7 @@
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/components/navbar/">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
+  <link rel="icon" href="{{ asset('img/LOGO.png') }}" type="image/x-icon">
   <style>
     /* Links */
     a,
@@ -238,6 +238,7 @@
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
       <div class="inner d-flex align-items-center justify-content-between">
+        <img class="logo" src="{{ asset('img/Logo.png')}}" alt="NBA Logo">
         <nav class="nav nav-masthead justify-content-center">
           <a class="p-2 text-light nav-link" href="{{route('site.principal')}}">Principal</a>
           <a class="p-2 text-light nav-link" href="{{route('site.somos')}}">Quem Somos</a>
